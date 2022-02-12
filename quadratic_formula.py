@@ -1,6 +1,5 @@
 import math
 
-
 def quadraticFormula(a, b, c):
     ''' Implementing quadratic formula avoiding catastrophic cancellation '''
 
@@ -9,9 +8,7 @@ def quadraticFormula(a, b, c):
         r2 = (2 * c) / (-b + math.sqrt((b**2) - (4*a*c)))
         print(f"Root 1: {r1} \nRoot 2: {r2}")
     except:
-        print(
-            f"[ERROR] - Math domain error when computing a = {a}, b = {b}, c = {c}. Try again!")
-
+        print(f"[ERROR] - Math domain error when computing a = {a}, b = {b}, c = {c}. Try again!")
 
 if __name__ == '__main__':
 
